@@ -1,0 +1,7 @@
+.bgBox{
+    width: 230px;
+    height: 310px;
+    border: 1px solid #000;
+    /* url在解析的时候会解析成require，但是require访问图片返回的额是esmodule,路径无法识别 */
+    background-image: url('../img/icon1.png');
+}

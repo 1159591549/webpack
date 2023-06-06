@@ -1,0 +1,22 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "test create packagejson",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-cli": "^4.9.2",
+    "webpack": "^5.70.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "style-loader": "^3.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config lg.webpack.js"
+  },
+  "author": "huzhiyao",
+  "license": "ISC"
+}

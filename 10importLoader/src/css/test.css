@@ -1,0 +1,5 @@
+.title{
+    transition: all 0.5s;
+    user-select: none;
+    border-radius: 10px;
+}

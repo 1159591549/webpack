@@ -1,0 +1,5 @@
+@import './two.css';
+h1{
+    color: #12345678;
+    /* user-select: none; */
+}
